@@ -5,6 +5,8 @@
 
 ## How to use the scripts
 
+First, clone this repo and navigate to it on terminal.
+
 To run, (i) cd to Gazebo_Rviz_launcher (use "cd G*") and (ii) launch a terminal and execute 'bash om.sh'.
 <br>
 'om' is short for open manipulator.
