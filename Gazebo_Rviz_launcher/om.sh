@@ -1,3 +1,12 @@
+repo_dir=$(pwd)
+
+cd ~/catkin_ws/src/
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_manipulation.git
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_manipulation_simulations.git
+cd ~/catkin_ws && catkin_make
+
+cd $repo_dir
+
 # set robot type
 export TURTLEBOT3_MODEL=waffle_pi
 
