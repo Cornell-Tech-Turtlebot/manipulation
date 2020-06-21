@@ -1,4 +1,3 @@
-cd Gaze*
 repo_dir=$(pwd)
 
 cd ~/catkin_ws/src/
