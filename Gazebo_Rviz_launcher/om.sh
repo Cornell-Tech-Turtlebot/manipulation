@@ -21,6 +21,10 @@ bash moveit.sh &
 chmod 777 ./rviz.sh
 bash rviz.sh &
 
+# set file permisions and background process
+chmod 777 ./gui.sh
+bash gui.sh &
+
 # line below is equivalent to previous two lines but not as clean. kept in case chmod is an issue during testing
 #gnome-terminal -e "bash -c \"bash rviz.sh; exec bash\""
 
